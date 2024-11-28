@@ -1,5 +1,5 @@
 .grid-container {
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     width: 1400px;
     height: 903px;
     display: grid;
@@ -16,11 +16,11 @@
         "area2 area6 area5 area5";
 }
 
+/* Tarjeta 1 */
 .grid-item1 {
     width: 100%;
     height: 100%;
     text-align: auto;
-    border: 1px solid black;
     grid-area: area1;
     border-radius: 10px;
     background-color: hsl(31, 66%, 93%);
@@ -46,74 +46,241 @@
     font-weight: 500;
 }
 
+/* Tarjeta 2 */
 .grid-item2 {
+    background-color: rgb(238, 187, 93);
+    align-content: center;
+    border-radius: 10px;
     width: 100%;
     height: 100%;
-    background: rgb(183, 117, 214);
+    background: rgb(219, 202, 105);
     text-align: auto;
-    border: 1px solid black;
     grid-area: area2;
-    border-radius: 10px;
 }
 
+.imagen1 {
+    height: 180px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px auto 10px;
+    display: flex;
+}
+
+.text {
+    display: block;
+    margin: 3px;
+    padding: 5px;
+    font-size: 50px;
+    line-height: 39px;
+    font-weight: 500;
+}
+
+
+/* Tarjeta 3 */
 .grid-item3 {
+    background-color: hsl(259, 78%, 53%);
+    align-content: center;
+    text-align: start;
     width: 100%;
     height: 100%;
-    background: rgb(112, 149, 206);
     text-align: auto;
-    border: 1px solid black;
     grid-area: area3;
     border-radius: 10px;
 }
 
+.imagen6 {
+    height: 30px;
+    width: 180px;
+    margin-left: 160px;
+}
+
+
+.text10 {
+    font-size: 60px;
+    margin-left: 12px;
+    text-align: center;
+    color: white;
+    margin-top: -0px;
+    margin-bottom: -1px;
+}
+
+.text11 {
+    font-size: small;
+    text-align: center;
+    color: white;
+}
+
+/* Tarjeta 4 */
 .grid-item4 {
+    background-color: hsl(259, 50%, 89%);
+    align-content: center;
     width: 100%;
     height: 100%;
-    background: rgb(35, 199, 57);
     text-align: auto;
-    border: 1px solid black;
     grid-area: area4;
     margin-right: 300px;
     border-radius: 10px;
+    overflow: hidden;
 }
 
+.imagen2 {
+    height: 340px;
+    width: 300px;
+    padding: 10px;
+    margin: 10px auto 10px 20px;
+}
+
+.text3 {
+    margin-top: 5px;
+    margin-bottom: -3px;
+    text-align: center;
+    padding: 15px;
+    font-size: 40px;
+    text-align: start;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.text4 {
+    margin-top: -5px;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    text-align: start;
+    font-weight: 500;
+}
+
+/* Tarjeta 5 */
 .grid-item5 {
+    background-color: hsl(259, 78%, 53%);
+    align-content: center;
+    text-align: start;
+    display: flex;
     width: 100%;
     height: 100%;
-    background: rgb(112, 149, 206);
     text-align: auto;
-    border: 1px solid black;
     grid-area: area5;
     border-radius: 10px;
+    overflow: hidden;
 }
 
+.imagen7 {
+    height: 220px;
+    width: 400px;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+
+.text12 {
+    font-size: 35px;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 90px;
+    color: white;
+}
+
+/* Tarjeta 5 */
 .grid-item6 {
+    align-content: center;
+    border: 2px solid rgb(255, 255, 255);
+    color: #000000;
+    box-shadow: rgb(255, 255, 255) 0 17px 30px -1px,rgba(185, 53, 53, 0.14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    box-sizing: border-box;
+    overflow: hidden;
     width: 100%;
     height: 100%;
-    background: rgb(112, 149, 206);
+    background: rgb(255, 255, 255);
     text-align: auto;
-    border: 1px solid black;
     grid-area: area6;
     border-radius: 10px;
+    overflow: hidden;
 }
 
+.imagen5 {
+    height: 70px;
+    width: 180px;
+    padding: 10px;
+}
+
+
+.text8 {
+    font-size: 60px;
+    display: flex;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    text-align: center;
+    padding-left: 15px;
+}
+
+.text9 {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Tarjeta 6 */
 .grid-item7 {
+    align-content: center;
+    border: 2px solid rgb(255, 255, 255);
+    color: #000000;
+    box-shadow: rgb(255, 255, 255) 0 17px 30px -1px,rgba(185, 53, 53, 0.14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    box-sizing: border-box;
+    overflow: hidden;
     width: 100%;
     height: 100%;
-    background: rgb(112, 149, 206);
+    background: rgb(255, 255, 255);
     text-align: auto;
-    border: 1px solid black;
     grid-area: area7;
     border-radius: 10px;
 }
 
+.imagen3 {
+    height: 80px;
+    width: 340px;
+    padding: 5px;
+    margin-top: -200px;
+}
+
+
+.text6 {
+    font-size: 40px;
+    line-height: 30px;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: -40px;
+    padding-left: 15px;
+}
+
+/* Tarjeta 7 */
 .grid-item8 {
+    align-content: center;
+    text-align: start;
+    overflow: hidden;
     width: 100%;
     height: 100%;
-    background: rgb(112, 149, 206);
+    background: rgb(219, 202, 105);
     text-align: auto;
-    border: 1px solid black;
     grid-area: area8;
     border-radius: 10px;
+    overflow: hidden;
+}
 
+.imagen4 {
+    height: 190px;
+    width: 230px;
+    padding: 10px;
+}
+
+
+.text7 {
+    font-size: 38px;
+    line-height: 35px;
+    display: flex;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-top: 15px;
 }

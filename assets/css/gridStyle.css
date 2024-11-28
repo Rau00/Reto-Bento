@@ -8,7 +8,7 @@
     grid-gap: 20px;
     padding: 100px;
     margin: 0px;
-    padding-left: 390px;
+    align-items: center;
     grid-template-areas:
         "area1 area3 area3 area4"
         "area1 area7 area8 area4"
@@ -124,7 +124,7 @@
 }
 
 .imagen2 {
-    height: 340px;
+    height: 300px;
     width: 300px;
     padding: 10px;
     margin: 10px auto 10px 20px;

@@ -1,0 +1,119 @@
+.grid-container {
+    background-color: antiquewhite;
+    width: 1400px;
+    height: 903px;
+    display: grid;
+    grid-template-rows: 280px 140px 140px 280px;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-gap: 20px;
+    padding: 100px;
+    margin: 0px;
+    padding-left: 390px;
+    grid-template-areas:
+        "area1 area3 area3 area4"
+        "area1 area7 area8 area4"
+        "area2 area7 area8 area4"
+        "area2 area6 area5 area5";
+}
+
+.grid-item1 {
+    width: 100%;
+    height: 100%;
+    text-align: auto;
+    border: 1px solid black;
+    grid-area: area1;
+    border-radius: 10px;
+    background-color: hsl(31, 66%, 93%);
+    align-content: center;
+    border-radius: 10px;
+}
+
+#imagen {
+    height: 110px;
+    width: 230px;
+    padding: 10px;
+    margin: 10px auto 80px;
+    
+}
+
+.texto {
+    display: block;
+    margin: 3px;
+    padding: 5px;
+    font-size: xx-large;
+    margin: 80px 10px 10px 10px;
+    text-align: start;
+    font-weight: 500;
+}
+
+.grid-item2 {
+    width: 100%;
+    height: 100%;
+    background: rgb(183, 117, 214);
+    text-align: auto;
+    border: 1px solid black;
+    grid-area: area2;
+    border-radius: 10px;
+}
+
+.grid-item3 {
+    width: 100%;
+    height: 100%;
+    background: rgb(112, 149, 206);
+    text-align: auto;
+    border: 1px solid black;
+    grid-area: area3;
+    border-radius: 10px;
+}
+
+.grid-item4 {
+    width: 100%;
+    height: 100%;
+    background: rgb(35, 199, 57);
+    text-align: auto;
+    border: 1px solid black;
+    grid-area: area4;
+    margin-right: 300px;
+    border-radius: 10px;
+}
+
+.grid-item5 {
+    width: 100%;
+    height: 100%;
+    background: rgb(112, 149, 206);
+    text-align: auto;
+    border: 1px solid black;
+    grid-area: area5;
+    border-radius: 10px;
+}
+
+.grid-item6 {
+    width: 100%;
+    height: 100%;
+    background: rgb(112, 149, 206);
+    text-align: auto;
+    border: 1px solid black;
+    grid-area: area6;
+    border-radius: 10px;
+}
+
+.grid-item7 {
+    width: 100%;
+    height: 100%;
+    background: rgb(112, 149, 206);
+    text-align: auto;
+    border: 1px solid black;
+    grid-area: area7;
+    border-radius: 10px;
+}
+
+.grid-item8 {
+    width: 100%;
+    height: 100%;
+    background: rgb(112, 149, 206);
+    text-align: auto;
+    border: 1px solid black;
+    grid-area: area8;
+    border-radius: 10px;
+
+}

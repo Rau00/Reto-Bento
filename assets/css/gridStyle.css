@@ -47,12 +47,14 @@
 .texto {
     display: block;
     margin: 3px;
-    margin-top: 50px;
+    margin-top: 70px;
     padding: 15px;
     font-size: 35px;
     text-align: start;
     font-weight: 500;
+    line-height: 35px;
 }
+
 
 /* Tarjeta 2 */
 .grid-item2 {
